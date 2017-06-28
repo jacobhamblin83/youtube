@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
 import ReactDOM from 'react-dom';
-const API_KEY = 'AIzaSyDZ1YPEICnm0ApOEWkAycTwJFCiUHxYuYU';
+import config from '../../config'
+const API_KEY = config.API_KEY;
 import SearchBar from './components/search_bar';
 import YTsearch from 'youtube-api-search';
 import VideoList from './components/video_list';
